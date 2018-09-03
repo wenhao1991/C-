@@ -70,7 +70,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>D:\learn\c_plus_plus\opengl_learn\OpenGlDep\Include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\learn\LearnOpenGL-master\includes;$(IncludePath)</IncludePath>
     <LibraryPath>D:\learn\c_plus_plus\opengl_learn\OpenGlDep\Libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -80,7 +80,7 @@
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;assimp.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -119,6 +119,16 @@
   <ItemGroup>
     <ClCompile Include="glad.c" />
     <ClCompile Include="OpenGlLearn.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="1.colors.fs" />
+    <None Include="1.colors.vs" />
+    <None Include="1.lamp.fs" />
+    <None Include="1.lamp.vs" />
+    <None Include="3.3.shader.fs" />
+    <None Include="3.3.shader.vs" />
+    <None Include="7.4.camera.fs" />
+    <None Include="7.4.camera.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

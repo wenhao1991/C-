@@ -22,4 +22,30 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="1.colors.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="1.lamp.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="1.lamp.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="7.4.camera.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="7.4.camera.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="3.3.shader.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="3.3.shader.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="1.colors.vs">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>
